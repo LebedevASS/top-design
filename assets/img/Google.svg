@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 16" width="18" height="16">
+	<title>Google plus</title>
+	<defs>
+		<image  width="18" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAQCAMAAAAs2N9uAAAAAXNSR0IB2cksfwAAADNQTFRF////////////////////////////////////////////////////////////////////5RDoRwAAABF0Uk5TAFCAYBDP3//vr79AMCBwj5/kB6tMAAAAg0lEQVR4nF2QWxYDIQhDEZHgc2b/qy06bbXNj3glhCMRUeCp4FWMNCVJWWFZvC5loQIhUQTaCPOIyFSxVB2Zo+YPnVmVuU/j8IQfY0/gaE/UGxHVCzf9KcLqeZdRigfFTZol7xgG+SK1VQds61prLraR4vY2yXrMSkBJSO2MbOP5mY9ePFkDiDdljS8AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Google plus" href="#img1" x="0" y="0"/>
+</svg>

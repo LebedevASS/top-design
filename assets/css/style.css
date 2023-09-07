@@ -1,0 +1,434 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+:root {
+  --primary-color: #b78b57;
+}
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 14px;
+  line-height: 25px;
+  color: #242424;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: calc(2.2rem + 1.5vw);
+  line-height: 69px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h3 {
+  color: #9e9e9e;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.display-6 {
+  font-size: 1.7rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.color-prim {
+  color: var(--primary-color);
+}
+
+.navbar {
+--bs-navbar-padding-y: 0;
+}
+
+.navbar-nav {
+  --bs-nav-link-padding-y: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navbar-nav a.active {
+  border-bottom: 4px solid var(--primary-color);
+  color: #ededed
+}
+
+.nav-link:hover {
+  border-bottom: 4px solid var(--primary-color);
+}
+
+.menu-item {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: rgba(255,255,255, 0.55);
+}
+
+.menu-item:hover a{
+  color: rgba(255,255,255, 0.75); 
+  border-bottom: 4px solid var(--primary-color); 
+}
+
+.btn-lg {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.btn-primary {
+  padding: 14px 54px ;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--primary-color);
+  box-shadow: 0 15px 30px -18px #585858e6;
+}
+
+.btn-primary:hover  {
+  background-color: #373737;
+  border: none;
+}
+
+.call-me {
+  position: absolute;
+  right: 2%;
+  top: 594px;
+  width: 64px;
+  height: 64px;
+  border: 10px solid var(--primary-color);
+  border-radius: 50%;
+  background-image: url(../../assets/img/Telephone.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--primary-color);
+  box-shadow: 0 15px 30px -18px #585858e6;
+}
+
+.call-me:hover {
+  background-color:#373737;
+  border: 10px solid #373737;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+.bd-placeholder-img {
+  background-image: url(../../assets/img/bg.jpg);
+  background-size: cover;
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 10rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 36rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 3px;
+  height: 3px;
+  padding: 4px;
+  margin-right: 10px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  transition: opacity .6s ease;
+}
+
+.carousel-indicators .active {
+  background-color: var(--primary-color);
+}
+
+/*-------- Блок price---------- */
+
+.price-inner {
+  margin-top: 32px;
+  background-color: #ededed;
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card,
+.card-header {
+  background-color: #ffffff;
+  border: 0;
+}
+
+.pricing-card-title {
+  font-size: 3.5em;
+  line-height: 31px;
+  text-transform: uppercase;
+  color: #242424;
+  font-weight: 700;
+}
+
+/*-------- Блок форма-контакты ---------- */
+
+.contact-inner {
+  height: 648px;
+  background-color: #fff;
+}
+
+.wpcf7-form  {
+  width: 100%;
+  padding-right: 280px;
+  padding-left: 280px;
+  margin-right: auto;
+  margin-left: auto;
+} 
+
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid rgba(164,164,164,0.8);
+}
+
+
+.form-control:focus {
+  border: none;
+  border-bottom: 2px solid rgba(0,0,0,0.8);
+  box-shadow: none
+}
+
+
+.form-floating label {
+  padding-left: 0;
+  color: #9e9e9e;
+  font-weight: 500;
+}
+
+.wpcf7-submit {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  color:#fff
+}
+
+
+/*-------- FOOTER  ------- */
+
+.color-dark {
+  position: relative;
+  height: 264px;
+  background-color: #101010;
+  border: 1px solid #cfcfcf;
+  font-size: 12px;
+  line-height: 21px;
+  color: #7e7e7e;
+}
+
+.scroll {
+  position: absolute;
+  left: 2%;
+  bottom: 88%;
+  width: 60px;
+  height: 60px;
+  border: 13px solid var(--primary-color);
+  border-radius: 50%;
+  background-image: url(../../assets/img/ScrollUp.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--primary-color);
+  box-shadow: 0 15px 30px -18px rgba(245, 243, 243, 0.902);
+}
+
+.scroll:hover {
+  background-color:#373737;
+  border: 10px solid #373737;
+}
+
+.pr-64 {
+  padding-left: 64px;
+  padding-top: 32px;
+}
+
+.footer_awax {
+  position: absolute;
+  left: 7%;
+  bottom: 10%; 
+  font-size: 14px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.socials__item a {
+	width: 33px;
+	height: 33px;
+  margin: 0 7px;
+	border-radius: 50%;
+	display: block;
+}
+
+.socials__item:hover a {
+background-color: var(--primary-color);
+}
+
+.socials__item_tw a {
+	background: #373737 url('../../assets/img/tw.svg') no-repeat center center;
+}
+
+.socials__item_inst a {
+	background: #373737 url('../../assets/img/inst.svg') no-repeat center center;
+}
+
+.socials__item_in a {
+	background: #373737 url('../../assets/img/in.svg') no-repeat center center;
+}
+
+.socials__item_fb a {
+	background: #373737 url('../../assets/img/Facebook.svg') no-repeat center center;
+}
+
+.socials__item_yt a {
+	background: #373737 url('../../assets/img/Youtube.svg') no-repeat center center;
+}
+
+.socials__item_g a {
+	background: #373737 url('../../assets/img/Google.svg') no-repeat center center;
+}
+
+.socials__item_other a {
+	background: #373737 url('../../assets/img/Other.svg') no-repeat center center;
+}
+
+/* ------------Модальное окно------------------ */
+
+.modal2 {
+	display: none;
+	z-index: 1000;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.modal2__overlay {
+	background: rgba(0,0,0,0.8);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.modal2__body {
+	width: 350px;
+	height: 331px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	background: #fff;
+	margin-left: -200px;
+	margin-top: -100px;
+	border-radius: 10px;
+	box-shadow: 0 0 50px black;
+}
+
+.close { 
+  width: 0;
+  float: right;
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.close:hover { 
+  color: #ffff;
+  cursor: pointer;
+}
+
+.show {
+	display: block !important;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 1200px) {
+
+  .wpcf7-form  {
+    padding-right: 200px;
+    padding-left: 200px;
+  } 
+}
+
+@media (max-width: 996px) {
+  .wrap {
+    flex-wrap: wrap;
+  }
+  .wpcf7-form  {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+  } 
+
+  .contact-inner{
+    height: 686px;
+  }
+}
+
+
+@media (min-width: 768px) {
+
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+   .menu-item a {
+  padding-right: var(--bs-navbar-nav-link-padding-x);
+  padding-left: var(--bs-navbar-nav-link-padding-x);
+  padding-bottom: 23px;
+  } 
+}
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 600;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}

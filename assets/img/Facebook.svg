@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 16" width="8" height="16">
+	<title>Facebook icon</title>
+	<defs>
+		<image  width="8" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAQBAMAAADZpCNOAAAAAXNSR0IB2cksfwAAACpQTFRF////////////////////////////////////////////////////////avtNLQAAAA50Uk5TADDP/78Q72CPgFBA358UZn2mAAAAMUlEQVR4nGNgEDI2YWBNBhLsxsYeDJzGVgxAwpqBYY6x7XQGY2NjSxBhzcACEiNMAACtXAnEEBlCbQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Facebook icon" href="#img1" x="0" y="0"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 18" width="33" height="18">
+	<title>ScrollUp</title>
+	<defs>
+		<image  width="33" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAASBAMAAAAnJKpfAAAAAXNSR0IB2cksfwAAABJQTFRF////////////////////////uuV0AgAAAAZ0Uk5TADCA7/9gXvYCmwAAAFtJREFUeJxjYIAARkUGNCDsLIAqwGjiYoiuJBhVEaOJIRChm4JiElgeRRFEGkkRVBZJEUwSrgguB2cg9ENZSNqhTGR3gNkozgBzUD0N4qmgeIfRRIFBCDVchAQA0bsMrdhWZzcAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="ScrollUp" href="#img1" x="0" y="0"/>
+</svg>

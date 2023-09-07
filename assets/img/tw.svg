@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 13" width="17" height="13">
+	<title>Twitter icon</title>
+	<defs>
+		<image  width="17" height="13" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAMAAAB4p3UoAAAAAXNSR0IB2cksfwAAADNQTFRF////////////////////////////////////////////////////////////////////5RDoRwAAABF0Uk5TACAwYO//j1CAQL8Qn89wr9/6/DKxAAAAZUlEQVR4nE3O2xYAEQgF0FAjwsz/f+1QbudF9qpVAM6DJiDRE59eMSol0uTUhYgFoJjUXob+YgnVZM3v4JB2AeUhUi9pujaeMRQVOcJ2Gri5mV7r8Kl9BsUahOdQjbDjmTm49fsBuGQDqZkbGm4AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Twitter icon" href="#img1" x="0" y="0"/>
+</svg>
